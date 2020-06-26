@@ -34,6 +34,7 @@ public class HealthCheckEndpoint {
         map.put("hello", "world!?");
         map.put("foo", "bar");
         map.put("hoge", "fuga");
+        map.put("argocd", "build only!");
         return map;
     }
 }
