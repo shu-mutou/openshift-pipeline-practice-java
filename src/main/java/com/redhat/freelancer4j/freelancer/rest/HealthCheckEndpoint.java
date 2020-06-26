@@ -33,6 +33,7 @@ public class HealthCheckEndpoint {
         HashMap<String, String> map = new HashMap<>();
         map.put("hello", "world");
         map.put("foo", "bar");
+        map.put("hoge", "fuga");
         return map;
     }
 }
