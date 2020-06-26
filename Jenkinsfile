@@ -6,7 +6,7 @@ def app_image = "image-registry.openshift-image-registry.svc:5000/${deploy_proje
 
 pipeline {
   // pipelineを実行するagentの設定。yamlファイルで設定を渡せる
-  // 可能な限りJenkinsfileにagentの設定をもたせたほうが自動化とGit管理が進むためおすすめ。
+  // 可能な限りJenkinsfileにagentの設定をもたせたほうが自動化とGit管理が進むためおすすめ。0
   agent {
     kubernetes {
       cloud 'openshift'
