@@ -5,7 +5,7 @@ spec:
   volumes:
     - name: m2-volume
       persistentVolumeClaim:
-        claimName: userX-jenkins-agent-m2
+        claimName: user5-jenkins-agent-m2
   containers:
     - name: jnlp
       image: image-registry.openshift-image-registry.svc:5000/app-devops/custom-jenkins-agent
