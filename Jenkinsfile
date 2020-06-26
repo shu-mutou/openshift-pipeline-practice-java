@@ -68,6 +68,7 @@ pipeline {
 
     }
 
+    /*
     stage('deploy') {
       when {
         expression {
@@ -127,5 +128,6 @@ pipeline {
         }
       }
     }
+    */
   }
 }
